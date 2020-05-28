@@ -1,0 +1,55 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+
+		{
+			"path": "pages/live/live",
+			"style": {
+				"enablePullDownRefresh": false, // 删除此项: 不开启系统自带的下拉刷新, 默认false
+				"disableScroll": true, // 禁止原生页面滚动, 解决Android小程序下拉卡顿的问题
+				"app-plus": {
+					"bounce": "none" // 取消APP端iOS回弹,避免与下拉刷新冲突,以及bounce边缘1秒卡顿
+				}
+			}
+		},
+		{
+			"path": "pages/live/video",
+			"style": {}
+		},
+		{
+			"path": "pages/news/news",
+			"style": {}
+		},
+		{
+			"path": "pages/personal/personal",
+			"style": {}
+		}
+	],
+	"tabBar": {
+		"color": "#7A7E83",
+		"selectedColor": "#44b749",
+		"borderStyle": "black",
+		"backgroundColor": "#ffffff",
+		"list": [{
+			"pagePath": "pages/live/live",
+			"iconPath": "static/image/tabbar/live.png",
+			"selectedIconPath": "static/image/tabbar/live_cur.png",
+			"text": "直播"
+		}, {
+			"pagePath": "pages/news/news",
+			"iconPath": "static/image/tabbar/news.png",
+			"selectedIconPath": "static/image/tabbar/news_cur.png",
+			"text": "头条"
+		}, {
+			"pagePath": "pages/personal/personal",
+			"iconPath": "static/image/tabbar/personal.png",
+			"selectedIconPath": "static/image/tabbar/personal_cur.png",
+			"text": "个人中心"
+		}]
+	},
+	"globalStyle": {
+		"navigationBarBackgroundColor": "#0081ff",
+		"navigationBarTitleText": "魔盒",
+		"navigationStyle": "custom",
+		"navigationBarTextStyle": "white"
+	}
+}
