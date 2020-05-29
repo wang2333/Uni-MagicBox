@@ -16,7 +16,7 @@
 			"style": {}
 		},
 		{
-			"path": "pages/news/news",
+			"path": "pages/share/share",
 			"style": {}
 		},
 		{
@@ -35,10 +35,10 @@
 			"selectedIconPath": "static/image/tabbar/live_cur.png",
 			"text": "直播"
 		}, {
-			"pagePath": "pages/news/news",
-			"iconPath": "static/image/tabbar/news.png",
-			"selectedIconPath": "static/image/tabbar/news_cur.png",
-			"text": "头条"
+			"pagePath": "pages/share/share",
+			"iconPath": "static/image/tabbar/share.png",
+			"selectedIconPath": "static/image/tabbar/share_cur.png",
+			"text": "分享"
 		}, {
 			"pagePath": "pages/personal/personal",
 			"iconPath": "static/image/tabbar/personal.png",
